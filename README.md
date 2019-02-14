@@ -1,6 +1,17 @@
 # YandexTestApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+Доброго времени суток, команда разработчиков Яндекс.
+
+Тестовое задание (табло аэропорта) выполнял на Angular 7 + Redux (NgRx)
+Верстка была выполнена на Bootstrap 4.
+
+К сожалению не успел проинтегрировать API реального табло, по этому написал небольшой json файл с рейсами, он лежить тут:
+`./src/assets/sorage/flights.json`
+
+Если Вам будет интересно, то примеры моей работы с API можете найти тут (Приложение выполнено на Angular 6):
+`https://github.com/v0vchansky/MeteoLook`
+
+Спасибо за внимание :)
 
 ## Development server
 
