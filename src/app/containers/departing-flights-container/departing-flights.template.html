@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="header">
+    <div class="header__navigation">
+      <a [routerLink]="['/']" class="btn btn-outline-primary">Назад</a>
+      <span class="header__title">Вылетающие рейсы</span>
+    </div>
+    <app-header-search
+      (onEmitSearchString)="onSearch($event)"
+    ></app-header-search>
+  </div>
+  <div class="content">
+    <div class="flights">
+      <span class="flights__title">Список рейсов</span>
+      <div class="flight__list">
+        <div
+          *ngIf="flights.length > 0; else flightsIsEmpty"
+        >
+          <app-flight-card
+            *ngFor="let item of flights; let i = index"
+            [flightItem]="item"
+          ></app-flight-card>
+        </div>
+        <ng-template
+          #flightsIsEmpty
+        >Ничего не найдено</ng-template>
+      </div>
+    </div>
+  </div>
+</div>

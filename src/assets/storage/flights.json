@@ -1,0 +1,109 @@
+[
+  {
+    "place": "Москва",
+    "number": "GF120",
+    "type": "departing",
+    "time": "7:00"
+  },
+  {
+    "place": "Алжир",
+    "number": "MS770",
+    "type": "departing",
+    "time": "8:43"
+  },
+  {
+    "place": "Абу-Даби",
+    "number": "NH999",
+    "type": "departing",
+    "time": "9:10"
+  },
+  {
+    "place": "Банког",
+    "number": "LP340",
+    "type": "departing",
+    "time": "9:50"
+  },
+  {
+    "place": "Майами",
+    "number": "GF129",
+    "type": "departing",
+    "time": "10:00"
+  },
+  {
+    "place": "Амстердам",
+    "number": "GL121",
+    "type": "departing",
+    "time": "11:00"
+  },
+  {
+    "place": "Москва",
+    "number": "GK199",
+    "type": "departing",
+    "time": "12:00"
+  },
+  {
+    "place": "Москва",
+    "number": "GP420",
+    "type": "departing",
+    "time": "13:00"
+  },
+
+  {
+    "place": "Майами",
+    "number": "OP120",
+    "type": "arriving",
+    "time": "3:00"
+  },
+  {
+    "place": "Бразилиа",
+    "number": "HF526",
+    "type": "arriving",
+    "time": "8:00"
+  },
+  {
+    "place": "Самара",
+    "number": "AW520",
+    "type": "arriving",
+    "time": "11:00"
+  },
+  {
+    "place": "Пекин",
+    "number": "FR309",
+    "type": "arriving",
+    "time": "14:00"
+  },
+  {
+    "place": "Сан-Марино",
+    "number": "GF125",
+    "type": "arriving",
+    "time": "16:00"
+  },
+
+  {
+    "place": "Москва",
+    "number": "GO165",
+    "type": "delayed",
+    "time": "6:00"
+  },
+  {
+    "place": "Дели",
+    "number": "JS165",
+    "type": "delayed",
+    "time": "10:00"
+  },
+  {
+    "place": "Сан-Марино",
+    "number": "KL500",
+    "type": "delayed",
+    "time": "12:00"
+  },
+  {
+    "place": "Сан-Марино",
+    "number": "GT674",
+    "type": "delayed",
+    "time": "16:00"
+  }
+
+
+
+]
